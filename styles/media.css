@@ -1,0 +1,58 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+
+    header img{
+        width: 175px;
+    }
+
+    header a{
+        position: relative;
+        bottom: 50px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    ul{
+        text-align: center;
+        position: relative;
+        right: 22px;
+    }
+
+    article{
+        position: relative;
+        right: 55px;
+    }
+
+    article img{
+        display: none;
+    }
+    a{
+        font-size: 25px;
+    }
+    #contato{
+        position: relative;
+        left: 11%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    main{
+        flex-direction: column;
+    }
+    article{
+        position: relative;
+        right:90px;
+        top: 90px;
+    }
+}

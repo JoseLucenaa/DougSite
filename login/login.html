@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login - Doug</title>
+</head>
+<body>
+
+    <div class="main-login">
+        <div class="left-login">
+            <a href="/index.html" id="back"><i class="bi bi-arrow-left-circle-fill"></i></a>
+            <h1>Faça Login e adquira seus produtos</h1>
+            <img src="animated.svg" class="left-login-image" alt="gif-login">
+        </div>
+        <div class="rigth-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="text-field">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="text-field">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" id="senha">
+                    <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
+                </div>
+                <button class="btn-login">Login</button>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
